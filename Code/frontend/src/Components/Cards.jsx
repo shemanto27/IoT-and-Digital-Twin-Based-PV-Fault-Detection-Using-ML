@@ -37,7 +37,7 @@ function Cards() {
   }, []);
 
   const {Current, Irradiance, Temperature, Voltage} = data;
-  const Power = Current*Voltage;
+  const Power = (Current*Voltage).toFixed(2);
   
 
   return (
