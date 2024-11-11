@@ -6,6 +6,7 @@ import Navbar from './Layouts/Navbar';
 // import LeftSideBar from './Layouts/LeftSideBar';
 import Home from './Components/Home';
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar/>
